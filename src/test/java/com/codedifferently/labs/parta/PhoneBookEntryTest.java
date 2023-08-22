@@ -8,9 +8,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class PhoneBookEntryTest {
     @Test
     public void testConstructorAndGetters() {
-        String firstName = "John";
-        String lastName = "Doe";
-        String phoneNumber = "123-456-7890";
+        String firstName = "John"; // firstName input being john
+        String lastName = "Doe"; // lastName input being doe
+        String phoneNumber = "123-456-7890"; // phoneNumber input being 123-456-7890
 
         PhoneBookEntry entry = new PhoneBookEntry(firstName, lastName, phoneNumber);
 
