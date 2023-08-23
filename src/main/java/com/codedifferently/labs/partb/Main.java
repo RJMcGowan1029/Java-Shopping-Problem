@@ -1,7 +1,5 @@
 package com.codedifferently.labs.partb;
 
-import com.codedifferently.labs.parta.PhoneBook;
-import com.codedifferently.labs.parta.PhoneBookEntry;
 
 import java.util.Scanner;
 
@@ -28,7 +26,7 @@ public class Main {
                     System.out.print("Enter item name: "); //prints string
                     String name = scanner.nextLine();//scanner object
                     System.out.print("Enter item price: "); //prints string
-                    double price = Double.parseDouble(scanner.nextLine());//scanner object
+                    Double price = Double.parseDouble(scanner.nextLine());//scanner object
                     System.out.print("Enter item ID: ");//prints string
                     int productID = Integer.parseInt(scanner.nextLine());//scanner object
                     if (cart.addItem(name, price, productID)) { //if statement
@@ -39,7 +37,7 @@ public class Main {
                     break;
 
                     case 3:
-                        double total = cart.calculateTotal();
+                        Double total = cart.calculateTotal();
                         System.out.println("Your total is: " + total);
 
 

@@ -1,7 +1,5 @@
 package com.codedifferently.labs.partb;
 
-import com.codedifferently.labs.parta.PhoneBook;
-import com.codedifferently.labs.parta.PhoneBookEntry;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

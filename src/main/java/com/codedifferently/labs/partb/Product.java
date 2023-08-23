@@ -5,7 +5,7 @@ public class Product {
     private double price; // Declaring a variable to be used later for item price name
     private int productID; // Declaring a variable to be used later for item product ID number
 
-    public Product(String name, double price, int productID) {
+    public Product(String name, Double price, int productID) {
         this.name = name; // Setting name to name inside of this method
         this.price = price; // Setting price to price inside of this method
         this.productID = productID; // Setting productID to productID inside of this method
@@ -15,7 +15,7 @@ public class Product {
         return name;
     } // Getting the item name and returning it
 
-    public double getPrice() {
+    public Double getPrice() {
         return price;
     } // Getting the item price and returning it
 

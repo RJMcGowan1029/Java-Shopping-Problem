@@ -18,7 +18,7 @@ public class ShoppingCart {
     }
 
 
-    public boolean addItem(String name, double price, int productID) {
+    public boolean addItem(String name, Double price, int productID) {
         if (currentSize < entries.length) {
             entries[currentSize++] = new Product(name, price, productID);
             return true;
@@ -45,8 +45,8 @@ public class ShoppingCart {
         }
     }
 
-    public double calculateTotal(){
-        double total = 0.0;
+    public Double calculateTotal(){
+        Double total = 0.0;
         for(int i = 0; i < entries.length; i++){
             Product entry = entries[i];
 
